@@ -1,0 +1,687 @@
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.runtime.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.endpoints.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.exe
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.deps.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.runtimeconfig.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.pdb
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Humanizer.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.AssemblyReference.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfoInputs.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfo.cs
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.CoreCompileInputs.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cs
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\bundle\EventManagement.styles.css
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\projectbundle\EventManagement.bundle.scp.css
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0gsn9n6l22-b9sayid5wm.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\za9eg7vvi5-61n19gt1b8.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\uodyaqufq5-xtxxf3hu2r.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\u9aka2j0hq-bqjiyaj88i.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3rr4lbxyat-c2jlpeoesf.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\mp42i6w21y-erw9l3u2r3.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7lu2wynb3b-aexeepp0ev.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dgwtwfqr7f-d7shbmvgxk.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\14al5wdq99-ausgxo2sd3.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\hcybh62loh-k8d9w2qqmf.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\893wgpodmt-cosvhxvwiu.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx21w357qd-ub07r2b239.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dtffjng4m9-fvhpjtyr6v.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ehjn6ig31z-b7pk76d08c.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\5axczqh0qm-fsbi9cje9m.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6rn4imdhpf-rzd6atqjts.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpt4mh2kpc-ee0r1s7dh0.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\n9aotgf2wd-dxx9fxp4il.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\bde0olxrq5-jd9uben2k1.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\poqw8mgx0a-khv3u5hwcm.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\h3jn3g3fri-r4e9w2rdcm.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d02v8q25y9-lcd1t2u6c8.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wpjayexvc2-c2oey78nd0.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wj3euwof04-tdbxkamptv.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzg9exc9dj-j5mq2jizvt.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\r5zfdomm73-06098lyss8.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\upltncvjho-nvvlpmu67g.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzqof6tc1w-s35ty4nyc5.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\p8g2dq5ezk-pj5nd1wqec.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\o7mi10b6c7-46ein0sx1k.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\oewk6eps0f-v0zj4ognzu.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6lhvm40m3z-37tfw0ft22.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\c52q9x2ugf-hrwsygsryq.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\g5po3re504-pk9g2wxc8p.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3w792j7t2c-ft3s53vfgj.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3d7p1b39jq-6cfz1n2cew.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\pwmuhmgybj-6pdc2jztkx.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ap8lwyyrs1-493y06b0oq.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\t61lkiwx7o-iovd86k7lj.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpztuwxao1-vr1egmr9el.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\znopcsyk0m-kbrnm935zg.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx4owp1mt7-jj8uyg4cgr.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\qbns9pe0c9-y7v9cxd14o.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0fenc760mr-notf2xhcfb.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\jtzmrhy9fw-h1s4sie4z3.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dxpl0pofwd-63fj8s7r0e.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\8lbfoatumn-0j3bgjxly4.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\2waapeqo5k-47otxtyo56.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\sc4a48f0k3-4v8eqarkd7.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\x67fna1f5v-356vix0kms.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\kl2x0ht4fy-83jwlth58m.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xzlff2ahq8-mrlpezrjn3.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\vwyeoce19h-lzl9nlhx6b.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\1nv8eptkzz-ag7o75518u.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7wb19o6j39-x0q3zqp4vz.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\je82dzfgqm-0i3buxo5is.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wcqw95u0uk-o1o13a6vjx.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\i3unfcdfd3-ttgo8qnofa.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\fxewhqu55i-2z0ns9nrw6.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ynycn9jv5d-muycvpuwrr.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xk6ysrhoqc-87fc7y1x7t.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d3njqp5hhi-mlv21k5csn.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6346unjvgu-f5aejuitdh.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xc8q3fw157-f5aejuitdh.gz
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.build.EventManagement.props
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.EventManagement.props
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.EventManagement.props
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventMan.E6E737A0.Up2Date
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\refint\EventManagement.dll
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.pdb
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.genruntimeconfig.cache
+C:\Users\rohan\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\ref\EventManagement.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.runtime.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.endpoints.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.exe
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.deps.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.runtimeconfig.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.pdb
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Humanizer.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\bundle\EventManagement.styles.css
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\projectbundle\EventManagement.bundle.scp.css
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0gsn9n6l22-b9sayid5wm.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\za9eg7vvi5-61n19gt1b8.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\uodyaqufq5-xtxxf3hu2r.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\u9aka2j0hq-bqjiyaj88i.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3rr4lbxyat-c2jlpeoesf.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\mp42i6w21y-erw9l3u2r3.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7lu2wynb3b-aexeepp0ev.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dgwtwfqr7f-d7shbmvgxk.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\14al5wdq99-ausgxo2sd3.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\hcybh62loh-k8d9w2qqmf.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\893wgpodmt-cosvhxvwiu.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx21w357qd-ub07r2b239.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dtffjng4m9-fvhpjtyr6v.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ehjn6ig31z-b7pk76d08c.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\5axczqh0qm-fsbi9cje9m.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6rn4imdhpf-rzd6atqjts.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpt4mh2kpc-ee0r1s7dh0.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\n9aotgf2wd-dxx9fxp4il.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\bde0olxrq5-jd9uben2k1.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\poqw8mgx0a-khv3u5hwcm.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\h3jn3g3fri-r4e9w2rdcm.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d02v8q25y9-lcd1t2u6c8.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wpjayexvc2-c2oey78nd0.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wj3euwof04-tdbxkamptv.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzg9exc9dj-j5mq2jizvt.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\r5zfdomm73-06098lyss8.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\upltncvjho-nvvlpmu67g.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzqof6tc1w-s35ty4nyc5.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\p8g2dq5ezk-pj5nd1wqec.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\o7mi10b6c7-46ein0sx1k.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\oewk6eps0f-v0zj4ognzu.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6lhvm40m3z-37tfw0ft22.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\c52q9x2ugf-hrwsygsryq.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\g5po3re504-pk9g2wxc8p.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3w792j7t2c-ft3s53vfgj.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3d7p1b39jq-6cfz1n2cew.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\pwmuhmgybj-6pdc2jztkx.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ap8lwyyrs1-493y06b0oq.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\t61lkiwx7o-iovd86k7lj.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpztuwxao1-vr1egmr9el.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\znopcsyk0m-kbrnm935zg.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx4owp1mt7-jj8uyg4cgr.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\qbns9pe0c9-y7v9cxd14o.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0fenc760mr-notf2xhcfb.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\jtzmrhy9fw-h1s4sie4z3.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dxpl0pofwd-63fj8s7r0e.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\8lbfoatumn-0j3bgjxly4.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\2waapeqo5k-47otxtyo56.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\sc4a48f0k3-4v8eqarkd7.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\x67fna1f5v-356vix0kms.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\kl2x0ht4fy-83jwlth58m.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xzlff2ahq8-mrlpezrjn3.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\vwyeoce19h-lzl9nlhx6b.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\1nv8eptkzz-ag7o75518u.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7wb19o6j39-x0q3zqp4vz.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\je82dzfgqm-0i3buxo5is.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wcqw95u0uk-o1o13a6vjx.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\i3unfcdfd3-ttgo8qnofa.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\fxewhqu55i-2z0ns9nrw6.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ynycn9jv5d-muycvpuwrr.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xk6ysrhoqc-87fc7y1x7t.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d3njqp5hhi-mlv21k5csn.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6346unjvgu-f5aejuitdh.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xc8q3fw157-f5aejuitdh.gz
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.build.EventManagement.props
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.EventManagement.props
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.EventManagement.props
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventMan.E6E737A0.Up2Date
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\refint\EventManagement.dll
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.pdb
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\DotnetProject\EventManagement\obj\Debug\net9.0\ref\EventManagement.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\appsettings.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.endpoints.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.staticwebassets.runtime.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.exe
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.deps.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\EventManagement.pdb
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Humanizer.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\bundle\EventManagement.styles.css
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\scopedcss\projectbundle\EventManagement.bundle.scp.css
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0gsn9n6l22-b9sayid5wm.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\za9eg7vvi5-61n19gt1b8.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\uodyaqufq5-xtxxf3hu2r.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\u9aka2j0hq-bqjiyaj88i.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3rr4lbxyat-c2jlpeoesf.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\mp42i6w21y-erw9l3u2r3.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7lu2wynb3b-aexeepp0ev.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dgwtwfqr7f-d7shbmvgxk.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\14al5wdq99-ausgxo2sd3.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\hcybh62loh-k8d9w2qqmf.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\893wgpodmt-cosvhxvwiu.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx21w357qd-ub07r2b239.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dtffjng4m9-fvhpjtyr6v.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ehjn6ig31z-b7pk76d08c.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\5axczqh0qm-fsbi9cje9m.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6rn4imdhpf-rzd6atqjts.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpt4mh2kpc-ee0r1s7dh0.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\n9aotgf2wd-dxx9fxp4il.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\bde0olxrq5-jd9uben2k1.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\poqw8mgx0a-khv3u5hwcm.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\h3jn3g3fri-r4e9w2rdcm.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d02v8q25y9-lcd1t2u6c8.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wpjayexvc2-c2oey78nd0.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wj3euwof04-tdbxkamptv.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzg9exc9dj-j5mq2jizvt.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\r5zfdomm73-06098lyss8.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\upltncvjho-nvvlpmu67g.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dzqof6tc1w-s35ty4nyc5.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\p8g2dq5ezk-pj5nd1wqec.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\o7mi10b6c7-46ein0sx1k.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\oewk6eps0f-v0zj4ognzu.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6lhvm40m3z-37tfw0ft22.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\c52q9x2ugf-hrwsygsryq.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\g5po3re504-pk9g2wxc8p.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3w792j7t2c-ft3s53vfgj.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\3d7p1b39jq-6cfz1n2cew.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\pwmuhmgybj-6pdc2jztkx.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ap8lwyyrs1-493y06b0oq.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\t61lkiwx7o-iovd86k7lj.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\cpztuwxao1-vr1egmr9el.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\znopcsyk0m-kbrnm935zg.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\rx4owp1mt7-jj8uyg4cgr.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\qbns9pe0c9-y7v9cxd14o.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\0fenc760mr-notf2xhcfb.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\jtzmrhy9fw-h1s4sie4z3.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\dxpl0pofwd-63fj8s7r0e.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\8lbfoatumn-0j3bgjxly4.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\2waapeqo5k-47otxtyo56.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\sc4a48f0k3-4v8eqarkd7.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\x67fna1f5v-356vix0kms.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\kl2x0ht4fy-83jwlth58m.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xzlff2ahq8-mrlpezrjn3.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\vwyeoce19h-lzl9nlhx6b.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\1nv8eptkzz-ag7o75518u.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\7wb19o6j39-x0q3zqp4vz.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\je82dzfgqm-0i3buxo5is.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\wcqw95u0uk-o1o13a6vjx.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\i3unfcdfd3-ttgo8qnofa.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\fxewhqu55i-2z0ns9nrw6.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\ynycn9jv5d-muycvpuwrr.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xk6ysrhoqc-87fc7y1x7t.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\d3njqp5hhi-mlv21k5csn.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\6346unjvgu-f5aejuitdh.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\compressed\xc8q3fw157-f5aejuitdh.gz
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.EventManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.build.EventManagement.props
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.EventManagement.props
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.EventManagement.props
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventMan.E6E737A0.Up2Date
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\refint\EventManagement.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.pdb
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\ref\EventManagement.dll

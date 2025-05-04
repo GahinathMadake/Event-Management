@@ -1,0 +1,142 @@
+@model EventManagement.ViewModels.EventDetailsViewModel
+
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<div class="container py-4" style="max-width: 800px;">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="h4 mb-0">Event Details</h2>
+        </div>
+
+        <div class="card-body">
+            <h3 class="text-primary fw-bold mb-3">@Model.Event.Title</h3>
+
+            <div class="mb-4">
+                <label class="form-label fw-semibold"><i class="bi bi-card-text me-2 text-muted"></i>Description</label>
+                <div class="p-3 bg-light rounded">@Model.Event.Description</div>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                    <div class="bg-light p-3 rounded">
+                        <label class="form-label fw-semibold"><i class="bi bi-calendar-date me-2 text-muted"></i>Date</label>
+                        <p class="mb-0">@Model.Event.Date.ToString("MMMM dd, yyyy")</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-light p-3 rounded">
+                        <label class="form-label fw-semibold"><i class="bi bi-geo-alt me-2 text-muted"></i>Location</label>
+                        <p class="mb-0">@Model.Event.Location</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-light p-3 rounded">
+                        <label class="form-label fw-semibold"><i class="bi bi-people me-2 text-muted"></i>Capacity</label>
+                        <p class="mb-0">@Model.Event.Capacity</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mb-4" />
+
+            <div>
+                <h5 class="fw-semibold text-secondary mb-3"><i class="bi bi-person-check me-2"></i>Registered Members</h5>
+                @if (Model.RegisteredUsers != null && Model.RegisteredUsers.Any())
+                {
+                    <ul class="list-group rounded-3">
+                        @foreach (var user in Model.RegisteredUsers)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span><i class="bi bi-person-circle me-2 text-primary"></i>@user.FullName</span>
+                                <span class="text-muted">@user.Email</span>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <div class="alert alert-info mt-2">
+                        <i class="bi bi-exclamation-circle me-2"></i>No members have registered yet.
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="card-footer bg-white d-flex justify-content-between rounded-bottom-4">
+            <a asp-action="Edit" asp-route-id="@Model.Event.Id" class="btn btn-warning">
+                <i class="bi bi-pencil-square me-1"></i> Edit
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle me-1"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @model EventManagement.Models.Event
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<div class="container py-4" style="max-width: 600px;">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="h4 mb-0">Event Details</h2>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h3 class="h5 text-primary">@Model.Title</h3>
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-12">
+                    <p class="mb-2"><strong><i class="bi bi-card-text text-muted me-2"></i>Description:</strong></p>
+                    <div class="p-3 bg-light rounded">@Model.Description</div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p class="mb-1"><strong><i class="bi bi-calendar-date text-muted me-2"></i>Date:</strong></p>
+                    <p>@Model.Date.ToShortDateString()</p>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <p class="mb-1"><strong><i class="bi bi-geo-alt text-muted me-2"></i>Location:</strong></p>
+                    <p>@Model.Location</p>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <p class="mb-1"><strong><i class="bi bi-people text-muted me-2"></i>Capacity:</strong></p>
+                    <p>@Model.Capacity</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-white d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>
+
+ *@

@@ -1,0 +1,30 @@
+@model EventManagement.Models.Event
+
+<h3>Attendees for: @Model.Title</h3>
+
+@if (!Model.UserEvents.Any())
+{
+    <p>No one has registered yet.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Registered At</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var reg in Model.UserEvents)
+        {
+            <tr>
+                <td>@reg.User?.FullName</td>
+                <td>@reg.User?.Email</td>
+                <td>@reg.RegisteredAt.ToString("g")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

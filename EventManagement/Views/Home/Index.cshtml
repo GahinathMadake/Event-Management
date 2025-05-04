@@ -1,0 +1,392 @@
+﻿@model List<EventManagement.Models.Review>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid py-5">
+    <div class="container">
+
+        @* Hero Section *@
+        <div class="row align-items-center g-5">
+            <!-- Text Content -->
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold text-danger mb-4">Effortlessly Conduct your events</h1>
+                <p class="lead text-muted mb-4">
+                    Make event planning easy with our comprehensive platform. From start to finish, we streamline the process 
+                    and offer dedicated support to make your event a success.
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-3">
+                    <a href="/Events/Create" class="btn btn-danger btn-lg px-4">
+                        <i class="fas fa-calendar-plus me-2"></i> Plan an Event
+                    </a>
+                    @* <a href="/Experts" class="btn btn-outline-danger btn-lg px-4">
+                        <i class="fas fa-search me-2"></i> Find an Expert
+                    </a> *@
+                </div>
+            </div>
+            
+            <!-- Image -->
+            <div class="col-lg-6">
+                <img src="~/assets/eventhero.png" alt="Event Planning" class="img-fluid rounded">
+            </div>
+        </div>
+
+
+        @* Analytics *@
+        <div class="m-5 row g-4">
+            <!-- Event Organized -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card border-1 shadow-sm h-100">
+                    <div class="card-body text-center p-4">
+                        <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
+                            <i class="fas fa-calendar-check text-danger fs-2"></i>
+                        </div>
+                        <h3 class="fw-bold mb-2">1,248+</h3>
+                        <p class="text-muted mb-0">Events Organized</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Happy Users -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card border-1 shadow-sm h-100">
+                    <div class="card-body text-center p-4">
+                        <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
+                            <i class="fas fa-users text-success fs-2"></i>
+                        </div>
+                        <h3 class="fw-bold mb-2">5,732+</h3>
+                        <p class="text-muted mb-0">Happy Users</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expert Organizers -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card border-1 shadow-sm h-100">
+                    <div class="card-body text-center p-4">
+                        <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
+                            <i class="fas fa-user-tie text-primary fs-2"></i>
+                        </div>
+                        <h3 class="fw-bold mb-2">320+</h3>
+                        <p class="text-muted mb-0">Expert Organizers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cities Covered -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card border-1 shadow-sm h-100">
+                    <div class="card-body text-center p-4">
+                        <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
+                            <i class="fas fa-map-marker-alt text-warning fs-2"></i>
+                        </div>
+                        <h3 class="fw-bold mb-2">18+</h3>
+                        <p class="text-muted mb-0">Cities Covered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        @* Event Types *@
+        <section class="my-5 py-5 px-5 bg-light">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="text-center mb-5">
+                <h2 class="fw-bold text-danger">Types of Events We Support</h2>
+                <p class="lead text-muted">From traditional gatherings to modern celebrations</p>
+                <div class="mx-auto" style="height: 3px; width: 80px; background-color: #dc3545;"></div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Wedding Events -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm" style="transition: transform 0.3s ease;">
+                        <img src="~/assets/marriage.jpeg" class="card-img-top" alt="Wedding Events">
+                        <div class="card-body text-center">
+                            <div class="d-inline-flex align-items-center justify-content-center rounded-circle p-3 mb-3" style="width: 60px; height: 60px; background-color: rgba(220, 53, 69, 0.1);">
+                            <i class="fas fa-ring text-danger fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Wedding Events</h5>
+                            <p class="card-text text-muted">Traditional Marathi weddings with all rituals</p>
+                            <a href="/events/weddings" class="btn btn-sm btn-outline-danger">Explore</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Cultural Concerts -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm" style="transition: transform 0.3s ease;">
+                        <img src="~/assets/concert.jpg" class="card-img-top" alt="Cultural Concerts">
+                        <div class="card-body text-center">
+                            <div class="d-inline-flex align-items-center justify-content-center rounded-circle p-3 mb-3" style="width: 60px; height: 60px; background-color: rgba(13, 110, 253, 0.1);">
+                            <i class="fas fa-music text-primary fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Cultural Concerts</h5>
+                            <p class="card-text text-muted">Lavani, Powada and classical performances</p>
+                            <a href="/events/concerts" class="btn btn-sm btn-outline-primary">Explore</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Corporate Events -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm" style="transition: transform 0.3s ease;">
+                        <img src="~/assets/seminar.jpeg" class="card-img-top" alt="Corporate Events">
+                        <div class="card-body text-center">
+                            <div class="d-inline-flex align-items-center justify-content-center rounded-circle p-3 mb-3" style="width: 60px; height: 60px; background-color: rgba(25, 135, 84, 0.1);">
+                            <i class="fas fa-briefcase text-success fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Corporate Events</h5>
+                            <p class="card-text text-muted">Conferences, seminars and product launches</p>
+                            <a href="/events/corporate" class="btn btn-sm btn-outline-success">Explore</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- Religious Gatherings -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 border-0 shadow-sm" style="transition: transform 0.3s ease;">
+                        <img src="~/assets/hindu.jpg" class="card-img-top" alt="Religious Gatherings">
+                        <div class="card-body text-center">
+                            <div class="d-inline-flex align-items-center justify-content-center rounded-circle p-3 mb-3" style="width: 60px; height: 60px; background-color: rgba(255, 193, 7, 0.1);">
+                            <i class="fas fa-om text-warning fs-4"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Religious Gatherings</h5>
+                            <p class="card-text text-muted">Pujas, yatras and spiritual events</p>
+                            <a href="/events/religious" class="btn btn-sm btn-outline-warning">Explore</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        @* Reviews Section *@
+        <section class="py-5 my-5 bg-light rounded-3">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-danger">What Our Clients Say</h2>
+                    <p class="lead text-muted">Trusted by thousands of happy customers</p>
+                    <div class="mx-auto" style="height: 3px; width: 80px; background-color: #dc3545;"></div>
+                </div>
+
+                @if (Model != null && Model.Any())
+                {
+                    <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                var review = Model[i];
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <div class="card border-0 shadow-sm">
+                                                <div class="card-body p-4 text-center">
+                                                    <div class="mb-4">
+                                                        @for (int j = 0; j < 5; j++)
+                                                        {
+                                                            <i class="fas fa-star @(j < review.Rating ? "text-warning" : "text-muted")"></i>
+                                                        }
+                                                    </div>
+                                                    <p class="lead fst-italic mb-4">"@review.Content"</p>
+                                                    <div class="d-flex align-items-center justify-content-center">
+                                                        <div class="ms-3">
+                                                            <h5 class="mb-0 text-danger">@review.Author</h5>
+                                                            <small class="text-muted">@review.Date.ToString("MMMM dd, yyyy")</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-danger rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-danger rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-4">
+                        <p class="text-muted">No reviews available yet.</p>
+                    </div>
+                }
+            </div>
+        </section>
+
+
+
+        @* FAQ *@
+        <section class="py-5 bg-white">
+            <div class="container">
+                <div class="text-center mb-5">
+                <h2 class="fw-bold text-danger">Frequently Asked Questions</h2>
+                <p class="lead text-muted">Everything you need to know about our services</p>
+                <div class="mx-auto" style="height: 3px; width: 80px; background-color: #dc3545;"></div>
+                </div>
+
+                <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                    
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How far in advance should I book my event?
+                        </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            We recommend booking at least 3-6 months in advance for weddings and large events, and at least 1 month for smaller gatherings. Popular festival dates (like Ganesh Chaturthi or Diwali) get booked 6-12 months in advance.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What types of events do you specialize in?
+                        </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            We specialize in traditional Maharashtrian events including Marathi weddings, Ganesh Utsav pandals, Navratri dandiya, Lavani performances, Powada shows, Palkhi processions, and all Hindu religious ceremonies with authentic Puneri flair.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can you handle both indoor and outdoor events?
+                        </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Absolutely! We have experience managing events at wadas, farms, hotels, and heritage venues across Pune. We provide monsoon backup plans for outdoor events and have tie-ups with premium indoor venues.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What's included in your basic package?
+                        </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Our basic package includes venue selection, vendor coordination (catering, decor, photography), event timeline management, and 1 dedicated coordinator. Additional services like priest arrangements, traditional musicians, or specialty catering can be added.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            How do you handle traditional ritual requirements?
+                        </button>
+                        </h3>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            We work with experienced pandits who guide us on all ritual requirements - from muhurat timings to specific samagri needed for ceremonies. Our team is well-versed in Marathi wedding rituals, puja vidhis, and festival traditions.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Can you provide traditional Maharashtrian catering?
+                        </button>
+                        </h3>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Yes! We partner with authentic Maharashtrian caterers who specialize in wedding menus (puran poli, amti, varan bhat) and festival food (modaks, sabudana khichdi). We can arrange everything from sit-down meals to traditional zunka-bhakar stalls.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Do you provide decorations with traditional motifs?
+                        </button>
+                        </h3>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Certainly! We offer Paithani drapes, Warli art backdrops, traditional torans, and Peshwai-style decor. Our designers create authentic looks using elements like matki, sugarcane, and mango leaves for religious events.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            What areas in Pune do you serve?
+                        </button>
+                        </h3>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            We cover all of Pune city and surrounding areas including Hinjawadi, Wagholi, Chakan, and Lonavala. For destination weddings, we service Mahabaleshwar, Alibaug, and Kolhapur as well.
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 9 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
+                        <h3 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            How do you handle event cancellations?
+                        </button>
+                        </h3>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            We offer flexible rescheduling for religious events affected by muhurat changes. For other cancellations: 100% refund if cancelled 90+ days prior, 50% refund for 30-90 days, and credit note for cancellations within 30 days (except non-refundable vendor deposits).
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 10 -->
+                    <div class="accordion-item border-0 shadow-sm">
+                        <h3 class="accordion-header" id="headingTen">
+                        <button class="accordion-button collapsed text-danger fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            Can you arrange traditional entertainment?
+                        </button>
+                        </h3>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Yes! We work with renowned Lavani troupes, dhol-tasha pathaks, Powada performers, and folk artists. We can also arrange classical musicians for weddings and religious ceremonies as per your preferences.
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>

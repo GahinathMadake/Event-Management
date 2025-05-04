@@ -1,0 +1,279 @@
+@model IEnumerable<EventManagement.Models.Event>
+
+@{
+    ViewData["Title"] = "All Public Events";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">All Public Events</h1>
+    
+    <!-- Filter Badges -->
+    <div class="text-center mb-4">
+        <span class="badge bg-primary me-2 filter-badge active" data-filter="all" style="cursor: pointer;">All Events</span>
+        <span class="badge bg-success me-2 filter-badge" data-filter="ongoing" style="cursor: pointer;">Ongoing</span>
+        <span class="badge bg-warning text-dark me-2 filter-badge" data-filter="upcoming" style="cursor: pointer;">Upcoming</span>
+        <span class="badge bg-secondary filter-badge" data-filter="completed" style="cursor: pointer;">Completed</span>
+    </div>
+
+    <!-- Events Container -->
+    <div class="row" id="eventsContainer">
+        @{
+            var now = DateTime.Now;
+            var ongoingEvents = Model.Where(e => e.Date.Date == now.Date).ToList();
+            var upcomingEvents = Model.Where(e => e.Date > now).ToList();
+            var completedEvents = Model.Where(e => e.Date < now.Date).ToList();
+        }
+
+        @if (!Model.Any())
+        {
+            <div class="col-12">
+                <div class="card border-0 shadow-md">
+                    <div class="card-body text-center py-5">
+                        <div class="mb-4">
+                            <i class="fas fa-calendar-times fa-4x text-primary opacity-75"></i>
+                        </div>
+                        <h3 class="h4 text-muted mb-3">No Events Available</h3>
+                        <p class="text-muted mb-4">There are currently no scheduled events. Check back later or create a new event.</p>
+                        <a href="@Url.Action("Create")" class="btn btn-primary px-4">
+                            <i class="fas fa-plus me-2"></i> Create New Event
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <!-- Empty State Templates (Hidden by Default) -->
+            <div class="col-12 d-none" id="noOngoingEvents">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center py-5">
+                        <div class="mb-4">
+                            <i class="fas fa-clock fa-4x text-success opacity-75"></i>
+                        </div>
+                        <h3 class="h4 text-muted mb-3">No Ongoing Events</h3>
+                        <p class="text-muted mb-4">There are currently no events happening right now.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 d-none" id="noUpcomingEvents">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center py-5">
+                        <div class="mb-4">
+                            <i class="fas fa-calendar-plus fa-4x text-warning opacity-75"></i>
+                        </div>
+                        <h3 class="h4 text-muted mb-3">No Upcoming Events</h3>
+                        <p class="text-muted mb-4">Check back later for new events.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 d-none" id="noCompletedEvents">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center py-5">
+                        <div class="mb-4">
+                            <i class="fas fa-calendar-check fa-4x text-secondary opacity-75"></i>
+                        </div>
+                        <h3 class="h4 text-muted mb-3">No Past Events</h3>
+                        <p class="text-muted mb-4">No events have been completed yet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Cards -->
+            @foreach (var evt in Model)
+            {
+                string status = evt.Date.Date == now.Date ? "ongoing"
+                                : evt.Date > now ? "upcoming"
+                                : "completed";
+
+                <div class="col-md-4 mb-4 event-card" data-status="@status">
+                    <div class="card h-100">
+                        <div class="card-header
+                            @(status == "ongoing" ? "bg-success text-dark" :
+                              status == "upcoming" ? "bg-warning text-dark" :
+                              "bg-secondary text-white")">
+                            <span class="badge bg-light text-dark">
+                                @status.Substring(0, 1).ToUpper()@status.Substring(1)
+                            </span>
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">@evt.Title</h5>
+                            <p class="card-text">@evt.Description</p>
+                            <ul class="list-group list-group-flush mb-3">
+                                <li class="list-group-item"><strong>Date:</strong> @evt.Date.ToString("MMM dd, yyyy hh:mm tt")</li>
+                                <li class="list-group-item"><strong>Location:</strong> @evt.Location</li>
+                                <li class="list-group-item"><strong>Capacity:</strong> @evt.Capacity people</li>
+                            </ul>
+                            @if (status == "completed")
+                            {
+                                <a href="#" class="btn btn-outline-primary">View Photos</a>
+                                <a href="#" class="btn btn-outline-secondary ms-2">Feedback</a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Events" asp-action="RegisterEvent" asp-route-id="@evt.Id" class="btn btn-primary">Register Now</a>
+                                <a asp-controller="Events" asp-action="PublicDetails" asp-route-id="@evt.Id" class="btn btn-outline-secondary ms-2">Details</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const badges = document.querySelectorAll('.filter-badge');
+            const cards = document.querySelectorAll('.event-card');
+            const noOngoing = document.getElementById('noOngoingEvents');
+            const noUpcoming = document.getElementById('noUpcomingEvents');
+            const noCompleted = document.getElementById('noCompletedEvents');
+
+            badges.forEach(badge => {
+                badge.addEventListener('click', () => {
+                    badges.forEach(b => b.classList.remove('active'));
+                    badge.classList.add('active');
+
+                    const filter = badge.getAttribute('data-filter');
+                    
+                    // Hide all empty state messages first
+                    [noOngoing, noUpcoming, noCompleted].forEach(el => el.classList.add('d-none'));
+                    
+                    let hasVisibleCards = false;
+                    
+                    cards.forEach(card => {
+                        const status = card.getAttribute('data-status');
+                        const shouldShow = filter === 'all' || filter === status;
+                        card.style.display = shouldShow ? 'block' : 'none';
+                        
+                        if (shouldShow) hasVisibleCards = true;
+                    });
+                    
+                    // Show appropriate empty state if no cards are visible
+                    if (!hasVisibleCards) {
+                        if (filter === 'ongoing') noOngoing.classList.remove('d-none');
+                        else if (filter === 'upcoming') noUpcoming.classList.remove('d-none');
+                        else if (filter === 'completed') noCompleted.classList.remove('d-none');
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+
+
+
+
+@* @model IEnumerable<EventManagement.Models.Event>
+
+@{
+    ViewData["Title"] = "All Events";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">All Public Events</h1>
+    
+    <!-- Filter Badges -->
+    <div class="text-center mb-4">
+        <span class="badge bg-primary me-2 filter-badge active cursor-pointer" data-filter="all">All Events</span>
+        <span class="badge bg-success me-2 filter-badge cursor-pointer" data-filter="ongoing">Ongoing</span>
+        <span class="badge bg-warning text-dark me-2 filter-badge cursor-pointer" data-filter="upcoming">Upcoming</span>
+        <span class="badge bg-secondary filter-badge cursor-pointer" data-filter="completed">Completed</span>
+    </div>
+
+
+    <!-- Events Container -->
+    <div class="row" id="eventsContainer">
+    @if (!Model.Any()){
+        <div class="col-12">
+            <div class="card border-0 shadow-md">
+                <div class="card-body text-center py-5">
+                    <div class="mb-4">
+                        <i class="fas fa-calendar-times fa-4x text-primary opacity-75"></i>
+                    </div>
+                    <h3 class="h4 text-muted mb-3">No Events Available</h3>
+                    <p class="text-muted mb-4">There are currently no scheduled events. Check back later or create a new event.</p>
+                    <a  href={@Url.Action("Create")}>
+                        <button class="btn btn-primary px-4">
+                            <i class="fas fa-plus me-2"></i> Create New Event
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else{
+        @foreach (var evt in Model)
+        {
+            var now = DateTime.Now;
+            string status = evt.Date.Date == now.Date ? "ongoing"
+                            : evt.Date > now ? "upcoming"
+                            : "completed";
+
+            <div class="col-md-4 mb-4 event-card" data-status="@status">
+                <div class="card h-100">
+                    <div class="card-header
+                        @(status == "ongoing" ? "bg-success text-dark" :
+                          status == "upcoming" ? "bg-warning text-dark" :
+                          "bg-secondary text-white")">
+                        <span class="badge bg-light text-dark">
+                            @status.Substring(0, 1).ToUpper()@status.Substring(1)
+                        </span>
+                    </div>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">@evt.Title</h5>
+                        <p class="card-text">@evt.Description</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><strong>Date:</strong> @evt.Date.ToString("MMM dd, yyyy hh:mm tt")</li>
+                            <li class="list-group-item"><strong>Location:</strong> @evt.Location</li>
+                            <li class="list-group-item"><strong>Capacity:</strong> @evt.Capacity people</li>
+                        </ul>
+                        @if (status == "completed")
+                        {
+                            <a href="#" class="btn btn-outline-primary">View Photos</a>
+                            <a href="#" class="btn btn-outline-secondary ms-2">Feedback</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Events" asp-action="RegisterEvent" asp-route-id="@evt.Id" class="btn btn-primary">Register Now</a>
+                            <a asp-controller="Events" asp-action="PublicDetails" asp-route-id="@evt.Id" >Details</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // JS for Filtering
+        const badges = document.querySelectorAll('.filter-badge');
+        const cards = document.querySelectorAll('.event-card');
+
+        badges.forEach(badge => {
+            badge.addEventListener('click', () => {
+                badges.forEach(b => b.classList.remove('active'));
+                badge.classList.add('active');
+
+                const filter = badge.getAttribute('data-filter');
+
+                cards.forEach(card => {
+                    const status = card.getAttribute('data-status');
+                    card.style.display = (filter === 'all' || filter === status) ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+}
+
+
+
+ *@

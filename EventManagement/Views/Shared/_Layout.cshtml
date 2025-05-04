@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyMvcApp</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyMvcApp.styles.css" asp-append-version="true" />
+        <!-- Add this in your _Layout.cshtml head section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" />
+
+
+    <!-- Add this CSS in your site.css or style section -->
+    <style>
+        :root {
+            --maroon: #800020;
+            --saffron: #FF9933;
+        }
+        .text-maroon { color: var(--maroon); }
+        .bg-saffron { background-color: var(--saffron); }
+        .navbar { background-color: #FFF8F0 !important; }
+        .nav-link:hover { color: var(--maroon) !important; }
+    </style>
+
+
+</head>
+<body class="m-0">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <!-- Logo/Brand -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="~/assets/logo.png" alt="Puneri Mehfil" width="40" height="40" class="me-2" />
+                <span class="fw-bold text-maroon">Puneri Mehfil</span>
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                
+                    @if (User?.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Events" asp-action="Display">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Events" asp-action="Index">Manage</a>
+                        </li>
+                    }
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="Home" asp-action="Service">Services</a>
+                    </li>
+                    
+                    @if (User?.Identity != null && User.Identity.IsAuthenticated){
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Review" asp-action="Create">Review</a>
+                        </li>
+                    }
+                </ul>
+
+                <!-- Auth Section -->
+                <div class="d-flex">
+                    @if (User?.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <div class="dropdown">
+                            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle" id="userDropdown" data-bs-toggle="dropdown">
+                                <img src="@(User.FindFirst("ProfileImage")?.Value ?? "/assets/User.png")" alt="User" width="32" height="32" class="rounded-circle me-2 border border-2 border-primary">
+                                <span>@User.Identity.Name</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" asp-controller="Events" asp-action="MyRegisteredEvents">registered Events</a></li>
+                                <li><a class="dropdown-item" asp-controller="Users" asp-action="Logout">Logout</a></li>
+
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                       <a asp-controller="Users" asp-action="Login" class="btn btn-primary ms-2">
+                            <i class="fas fa-user-plus me-1"></i> Register
+                        </a>
+
+                    }
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-white text-uppercase mb-3">Puneri Mehfil</h5>
+                    <p class="text-light">
+                        Puneri Mehfil is Pune's premier event management platform, dedicated to crafting unforgettable experiences rooted
+                        in Maharashtra's rich cultural heritage. We specialize in curating authentic Puneri celebrations—from intimate Marathi
+                        sanskritik sammelans to grand Peshwai-style weddings—while integrating modern event solutions.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-white text-uppercase mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#" class="text-light text-decoration-none hover-text-success">Home</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-light text-decoration-none hover-text-success">Features</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-light text-decoration-none hover-text-success">How It Works</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-light text-decoration-none hover-text-success">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5 class="text-white text-uppercase mb-3">Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-light me-3 hover-text-primary">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-light me-3 hover-text-info">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-light me-3 hover-text-danger">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-light hover-text-primary">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="border-top border-secondary mt-4 pt-3 text-center text-light">
+                &copy; @DateTime.Now.Year Puneri Mehfil. All rights reserved. Created by Rohan Gahinath and Sakshi.
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .hover-text-success:hover { color: #28a745 !important; }
+        .hover-text-primary:hover { color: #007bff !important; }
+        .hover-text-info:hover { color: #17a2b8 !important; }
+        .hover-text-danger:hover { color: #dc3545 !important; }
+    </style>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
