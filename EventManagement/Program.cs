@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using EventManagement.Data;
+using EventManagement.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // 🔹 Add MVC Controllers & Views
 builder.Services.AddControllersWithViews();
+
+// Email using smtp
+builder.Services.AddTransient<EmailService>();
 
 // 🔹 Add Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

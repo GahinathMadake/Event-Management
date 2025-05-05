@@ -685,3 +685,4 @@ C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\
 C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.pdb
 C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\ref\EventManagement.dll
+C:\Users\LENOVO\Desktop\Dotnet Projects\DotnetProject\EventManagement\obj\Debug\net9.0\EventManagement.sourcelink.json

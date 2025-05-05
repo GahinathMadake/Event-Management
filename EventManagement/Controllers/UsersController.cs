@@ -143,4 +143,6 @@ namespace EventManagement.Controllers
             return RedirectToAction("Index", "Events");
             }
         }
+        
+
 }

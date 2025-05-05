@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using EventManagement.Models;
 using EventManagement.Data;
 using Microsoft.EntityFrameworkCore; 
+using EventManagement.ViewModels;
 
 
 
@@ -29,14 +30,38 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        // Fetch the top 100 reviews with 5-star rating
+        var totalEvents = _context.UserEvents
+            .Include(ue => ue.Event)
+            .Count(ue => ue.Event != null && ue.Event.Date <= DateTime.UtcNow);
+
+        var totalUsers = _context.Users.Count();
+
+        var expertOrganizers = _context.Users
+            .Count(u => u.Events.Any()); // Users who created events
+
+        var citiesCovered = _context.Users
+            .Select(u => u.Events.Select(e => e.Location))
+            .SelectMany(e => e)
+            .Distinct()
+            .Count();
+
         var topReviews = await _context.Reviews// Filter by 5-star rating
             .OrderByDescending(r => r.Date) // Optional: Order by creation date or rating
             .Take(100) // Fetch only the top 100 reviews
             .Include(r => r.User) // Include User data if needed
             .ToListAsync(); // Execute the query
 
-        return View(topReviews);
+
+        var viewModel = new AnalyticsViewModel
+        {
+            TotalEvents = totalEvents,
+            TotalUsers = totalUsers,
+            ExpertOrganizers = expertOrganizers,
+            CitiesCovered = citiesCovered,
+            Reviews = topReviews,
+        };
+
+        return View(viewModel);
     }
 
 

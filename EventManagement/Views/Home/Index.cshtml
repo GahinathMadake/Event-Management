@@ -1,4 +1,5 @@
-﻿@model List<EventManagement.Models.Review>
+﻿@model EventManagement.ViewModels.AnalyticsViewModel
+
 
 @{
     ViewData["Title"] = "Home Page";
@@ -42,7 +43,7 @@
                         <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
                             <i class="fas fa-calendar-check text-danger fs-2"></i>
                         </div>
-                        <h3 class="fw-bold mb-2">1,248+</h3>
+                        <h3 class="fw-bold mb-2">@Model.TotalEvents</h3>
                         <p class="text-muted mb-0">Events Organized</p>
                     </div>
                 </div>
@@ -55,7 +56,7 @@
                         <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
                             <i class="fas fa-users text-success fs-2"></i>
                         </div>
-                        <h3 class="fw-bold mb-2">5,732+</h3>
+                        <h3 class="fw-bold mb-2">@Model.TotalUsers</h3>
                         <p class="text-muted mb-0">Happy Users</p>
                     </div>
                 </div>
@@ -68,7 +69,7 @@
                         <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
                             <i class="fas fa-user-tie text-primary fs-2"></i>
                         </div>
-                        <h3 class="fw-bold mb-2">320+</h3>
+                        <h3 class="fw-bold mb-2">@Model.ExpertOrganizers</h3>
                         <p class="text-muted mb-0">Expert Organizers</p>
                     </div>
                 </div>
@@ -81,7 +82,7 @@
                         <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex p-3 mb-3">
                             <i class="fas fa-map-marker-alt text-warning fs-2"></i>
                         </div>
-                        <h3 class="fw-bold mb-2">18+</h3>
+                        <h3 class="fw-bold mb-2">@Model.CitiesCovered</h3>
                         <p class="text-muted mb-0">Cities Covered</p>
                     </div>
                 </div>
@@ -111,7 +112,7 @@
                             </div>
                             <h5 class="card-title fw-bold">Wedding Events</h5>
                             <p class="card-text text-muted">Traditional Marathi weddings with all rituals</p>
-                            <a href="/events/weddings" class="btn btn-sm btn-outline-danger">Explore</a>
+                            <a href="/Events/Display" class="btn btn-sm btn-outline-danger">Explore</a>
                         </div>
                         </div>
                     </div>
@@ -126,7 +127,7 @@
                             </div>
                             <h5 class="card-title fw-bold">Cultural Concerts</h5>
                             <p class="card-text text-muted">Lavani, Powada and classical performances</p>
-                            <a href="/events/concerts" class="btn btn-sm btn-outline-primary">Explore</a>
+                            <a href="/Events/Display" class="btn btn-sm btn-outline-primary">Explore</a>
                         </div>
                         </div>
                     </div>
@@ -141,7 +142,7 @@
                             </div>
                             <h5 class="card-title fw-bold">Corporate Events</h5>
                             <p class="card-text text-muted">Conferences, seminars and product launches</p>
-                            <a href="/events/corporate" class="btn btn-sm btn-outline-success">Explore</a>
+                            <a href="/Events/Display" class="btn btn-sm btn-outline-success">Explore</a>
                         </div>
                         </div>
                     </div>
@@ -156,7 +157,7 @@
                             </div>
                             <h5 class="card-title fw-bold">Religious Gatherings</h5>
                             <p class="card-text text-muted">Pujas, yatras and spiritual events</p>
-                            <a href="/events/religious" class="btn btn-sm btn-outline-warning">Explore</a>
+                            <a href="/Events/Display" class="btn btn-sm btn-outline-warning">Explore</a>
                         </div>
                         </div>
                     </div>
@@ -168,7 +169,7 @@
 
         
         @* Reviews Section *@
-        <section class="py-5 my-5 bg-light rounded-3">
+        <section class="py-5 my-5 rounded-3">
             <div class="container">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold text-danger">What Our Clients Say</h2>
@@ -176,17 +177,17 @@
                     <div class="mx-auto" style="height: 3px; width: 80px; background-color: #dc3545;"></div>
                 </div>
 
-                @if (Model != null && Model.Any())
+                @if (Model.Reviews != null && Model.Reviews.Any())
                 {
                     <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            @for (int i = 0; i < Model.Count; i++)
+                            @for (int i = 0; i < Model.Reviews.Count; i++)
                             {
-                                var review = Model[i];
+                                var review = Model.Reviews[i];
                                 <div class="carousel-item @(i == 0 ? "active" : "")">
                                     <div class="row justify-content-center">
                                         <div class="col-lg-8">
-                                            <div class="card border-0 shadow-sm">
+                                            <div class="card border-0 shadow-sm bg-light ">
                                                 <div class="card-body p-4 text-center">
                                                     <div class="mb-4">
                                                         @for (int j = 0; j < 5; j++)

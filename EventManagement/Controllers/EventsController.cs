@@ -45,8 +45,24 @@ namespace EventManagement.Controllers
         public async Task<IActionResult> Display()
         {
             var events = await _context.Events.ToListAsync();
-            return View("Display", events);
 
+           // ✅ Get the user ID from session instead of claims
+            int? userId = HttpContext.Session.GetInt32("UserId");
+
+            if (userId == null)
+            {
+                ViewBag.RegisteredEventIds = new List<int>();
+                return View(events);
+            }
+
+            var registeredEventIds = await _context.UserEvents
+                .Where(r => r.UserId == userId)
+                .Select(r => r.EventId)
+                .ToListAsync();
+
+            ViewBag.RegisteredEventIds = registeredEventIds;
+
+            return View(events);
         }
 
 
