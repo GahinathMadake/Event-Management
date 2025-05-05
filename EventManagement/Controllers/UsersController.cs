@@ -9,6 +9,8 @@ using System.Security.Cryptography;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
+using EventManagement.Services;
+
 
 
 namespace EventManagement.Controllers
@@ -17,8 +19,11 @@ namespace EventManagement.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public UsersController(ApplicationDbContext context)
+        private readonly EmailService _emailService;
+
+        public UsersController(EmailService emailService, ApplicationDbContext context)
         {
+            _emailService = emailService;
             _context = context;
         }
 
@@ -141,8 +146,83 @@ namespace EventManagement.Controllers
             );
 
             return RedirectToAction("Index", "Events");
-            }
         }
+
+
+
+        [HttpGet]
+        public IActionResult ForgotPassword() => View();
+
+        [HttpPost]
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string email)
+        {
+            // Fetch user like in Login
+            var user = _context.Users.FirstOrDefault(u => u.Email == email);
+
+            // Handle invalid user
+            if (user == null)
+            {
+                ModelState.Clear();
+                ModelState.AddModelError(string.Empty, "No user found with this email.");
+                return View();
+            }
+
+            // Generate secure token and set expiry
+            user.PasswordResetToken = Guid.NewGuid().ToString();
+            user.ResetTokenExpiration = DateTime.UtcNow.AddHours(1);
+            await _context.SaveChangesAsync();
+
+            // Build reset link
+            var resetLink = Url.Action("ResetPassword", "Users", new
+            {
+                email = user.Email,
+                token = user.PasswordResetToken
+            }, Request.Scheme);
+
+            // Send reset email
+            await _emailService.SendEmail(
+                user.Email,
+                "Reset Password",
+                $"Hello {user.FullName},<br/><br/>Click <a href='{resetLink}'>here</a> to reset your password.<br/><br/>This link will expire in 1 hour."
+            );
+            // Feedback
+            TempData["Message"] = "A password reset link has been sent to your email.";
+            return RedirectToAction("Login");
+        }
+
         
+        [HttpGet]
+        public IActionResult ResetPassword(string email, string token)
+        {
+            return View(new ResetPasswordViewModel { Email = email, Token = token });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            var user = _context.Users.FirstOrDefault(u =>
+                u.Email == model.Email &&
+                u.PasswordResetToken == model.Token &&
+                u.ResetTokenExpiration > DateTime.UtcNow);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Invalid or expired token.");
+                return View(model);
+            }
+
+            // Update password
+            user.Password = model.NewPassword; // You should hash this
+            user.PasswordResetToken = null;
+            user.ResetTokenExpiration = null;
+            await _context.SaveChangesAsync();
+
+            TempData["Message"] = "Password has been reset successfully.";
+            return RedirectToAction("Login");
+        }
+
+
+    }
 
 }

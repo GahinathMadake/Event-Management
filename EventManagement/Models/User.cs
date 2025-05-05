@@ -21,6 +21,10 @@ namespace EventManagement.Models
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+        public string? PasswordResetToken { get; set; }
+        public DateTime? ResetTokenExpiration { get; set; }
+
+
             // Add this navigation property to complete the relationship
         public ICollection<Event> Events { get; set; } = new List<Event>();
         public ICollection<UserEvent> UserEvents { get; set; } = new List<UserEvent>();
