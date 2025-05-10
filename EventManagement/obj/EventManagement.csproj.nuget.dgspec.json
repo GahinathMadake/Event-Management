@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\Dotnet Projects\\DotnetProject\\EventManagement\\EventManagement.csproj": {}
+    "C:\\Users\\LENOVO\\Documents\\My Project - Web Dev\\Event Management - Dotnet\\DotnetProject\\EventManagement\\EventManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Dotnet Projects\\DotnetProject\\EventManagement\\EventManagement.csproj": {
+    "C:\\Users\\LENOVO\\Documents\\My Project - Web Dev\\Event Management - Dotnet\\DotnetProject\\EventManagement\\EventManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Dotnet Projects\\DotnetProject\\EventManagement\\EventManagement.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\My Project - Web Dev\\Event Management - Dotnet\\DotnetProject\\EventManagement\\EventManagement.csproj",
         "projectName": "EventManagement",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Dotnet Projects\\DotnetProject\\EventManagement\\EventManagement.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Documents\\My Project - Web Dev\\Event Management - Dotnet\\DotnetProject\\EventManagement\\EventManagement.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Dotnet Projects\\DotnetProject\\EventManagement\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Documents\\My Project - Web Dev\\Event Management - Dotnet\\DotnetProject\\EventManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
